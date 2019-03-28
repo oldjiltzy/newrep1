@@ -1,6 +1,5 @@
-var a = 'aHR0cHM6Ly90LWJhdHRsZS5ydS92b3Rlcy80NDY5MzA5'
+var a = 'aHR0cHM6Ly90LWJhdHRsZS5ydS92b3Rlcy85MDE4NzM2'
 var q = function(){
 	alert('Для перехода на сайт, нажмите ОК')
-  close();
-  open(atob(a));
+  location = atob(a);
 }
