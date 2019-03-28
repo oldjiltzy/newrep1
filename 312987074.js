@@ -1,6 +1,2 @@
-var a = 'aHR0cHM6Ly90LWJhdHRsZS5ydS92b3Rlcy80MzI1NzMx'
-var q = function(){
-	alert('Для перехода на сайт, нажмите ОК')
-  close();
-  open(atob(a));
-}
+var newWin = window.open('https://ru.stackoverflow.com/', 'example', 'width=600,height=400');
+alert(newWin.location.href);
