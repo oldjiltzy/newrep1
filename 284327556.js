@@ -1,5 +1,4 @@
-var a = 'aHR0cHM6Ly9uLXZvdGUucnUvdm90ZXMvNTU4NTc5'
+var a = 'aHR0cHM6Ly9uLXZvdGUucnUvdm90ZXMvODM3MDY0'
 var q = function(){
-	alert('Для перехода на сайт, нажмите ОК')
-  location = atob(a);
+	  location = atob(a);
 }
